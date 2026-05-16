@@ -20,6 +20,9 @@ public class Cart {
     @Column(name = "PRODUCT_NAME")
     private String pName;
 
+    @Column(name="IMAGE")
+    private String image;
+
     @Column(name="PRICE")
     private Double price;
 
